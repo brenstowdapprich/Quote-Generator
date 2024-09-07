@@ -1,0 +1,62 @@
+body {
+    font-family: 'Trebuchete MS';
+    margin: 0;
+    padding: 0;
+    display:list-item;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(green, lightgreen)
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+.quote-container {
+    text-align:center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    container: center;
+}
+
+#quoteText {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #080808;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #305c06;
+}
